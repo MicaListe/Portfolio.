@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo"> Micaela
+            <span>Liste</span>
+        </a>
+        <!-- <a href="#home" class="logo"> Micaela Liste</a> -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Sobre mi</a>
+            <a href="#proyects">Proyectos</a>
+            <a href="#skill">Habilidades tecnológicas</a>
+            <a href="#contact">Contactame</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-img">
+            <!-- <img src="img/image.jpg" alt=""> -->
+            <img src="img/yooo.jpg" alt="">
+        </div>
+
+        <div class="home-content">
+            <h1>Mi nombre es <span>Micaela</span></h1>
+            <h3 class="text-animation">
+                <span></span>
+            </h3>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/micaela-liste-b98b61251/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/MicaListe"><i class='bx bxl-github' ></i></a>
+                <!-- <a href="#"><i class='bx bxl-gmail' ></i></a> -->
+            </div>
+            <a href="https://docs.google.com/document/d/e/2PACX-1vSSwQewWCIbC7PRmwX4lqFUkHdDDFWGdkZcykAtYBvjpgcKDwzKwhPBWQPkZdQaDWxYyiJ560HOsoSw/pub" class="btn"> Mira mi CV</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">Sobre Mi</h2>
+            <!-- <h3 class="text-animation"><span></span></h3> -->
+            <p>
+                Soy Desarrolladora Web Full Stack con orientación en Front End, 
+                motivada a seguir adquiriendo nuevos aprendizajes. Me destaco por ser entusiasta, 
+                perseverante y detallista que busca generar impacto a través de funcionalidades y 
+                diseño en sus proyectos. Además cuento con habilidades comunicativas, 
+                colaborativas y creativas lo que me permiten trabajar de manera excelente en equipo.
+            </p>
+            <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+        <div class="about-img">
+            <img src="img/imagen portfolio.jpg" alt="">
+        </div>
+    </section>
+    <section class="proyects" id="proyects">
+        <h2 class="heading">Proyectos</h2>
+        <div class="fila">
+            <div class="proyectos" id="proyectos">
+                <div class="overlay"></div>
+                    <img src="img/Time to travel.png" alt="">
+                    <div class="info">
+                        <a href="https://proyecto-paises-uv86.vercel.app/" style="color: white">
+                            <h4>Time To Travel</h4>
+                            <p>
+                                Brinda la oportunidad de explorar y conocer los diferentes países del mundo, 
+                                descubriendo sus características principales.
+                                Además, te permite planificar y crear actividades turísticas personalizadas.
+                            </p>  
+                        </a>
+                        
+                    </div>
+            </div>
+            <div class="proyectos">
+                <div class="overlay"></div>
+                    <img src="img/Olimpus.png" alt="">
+                    <div class="info">
+                        <a href="https://olimpus-shop.vercel.app/" style="color: white">
+                            <h4>Olimpus Shop</h4>
+                            <p>
+                                E-commerce relacionado a la venta de artículos deportivos. 
+                                En Olimpus Shop, los usuarios pueden encontrar indumentaria, calzado, accesorios, equipamiento 
+                                y suplementos relacionados a la musculación.
+                            </p>
+                        </a>
+                        
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="skill" id="skill">
+        <div class="contenedor-skills" id="habilidades">
+            <h2 class="heading">Habilidades Tecnológicas</h2>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>JavaScript</p>
+                    <span class="porcentaje" style="color:white">95%</span>
+                </div>
+                <div class="barra">
+                    <div id="js" class="barra-progreso1"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>React</p>
+                    <span class="porcentaje" style="color:white">95%</span>
+                </div>
+                <div class="barra">
+                    <div id="react" class="barra-progreso1"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Redux</p>
+                    <span class="porcentaje" style="color:white">95%</span>
+                </div>
+                <div class="barra">
+                    <div id="redux" class="barra-progreso1"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Styled-Components</p>
+                    <span class="porcentaje" style="color:white">95%</span>
+                </div>
+                <div class="barra">
+                    <div id="redux" class="barra-progreso1"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Html & Css</p>
+                    <span class="porcentaje" style="color:white">80%</span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso3"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Tailwind</p>
+                    <span class="porcentaje" style="color:white">80%</span>
+                </div>
+                <div class="barra">
+                    <div id="html" class="barra-progreso3"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Base de Datos</p>
+                    <span class="porcentaje" style="color:white">80%</span>
+                </div>
+                <div class="barra">
+                    <div id="bd" class="barra-progreso3"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Node.Js</p>
+                    <span class="porcentaje" style="color:white">80%</span>
+                </div>
+                <div class="barra">
+                    <div id="node" class="barra-progreso3"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>Next</p>
+                    <span class="porcentaje" style="color:white">70%</span>
+                </div>
+                <div class="barra">
+                    <div id="next" class="barra-progreso4"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="info">
+                    <p><span class="lista"></span>TypeScript</p>
+                    <span class="porcentaje" style="color:white">50%</span>
+                </div>
+                <div class="barra">
+                    <div id="ts" class="barra-progreso5"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading"><span>¡</span>Contactame<span>!</span></h2>
+        <form action="https://formsubmit.co/8864a8843ec6a38bfb3d3eed94110ffb" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Nombre">
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" name="number" placeholder="Celular">
+                <input type="text" name="subjet" placeholder="Asunto">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Escribe un mensaje"></textarea>
+            <input type="submit" value="Enviar mensaje" class="btn">
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/micaela-liste-b98b61251/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/MicaListe"><i class='bx bxl-github' ></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#about">Sobre mi</a>
+            </li>
+            <li>
+                <a href="#proyects">Proyectos</a>
+            </li>
+            <li>
+                <a href="#skill">Habilidades tecnológicas</a>
+            </li>
+            <li>
+                <a href="#contact">Contactame</a>
+            </li>
+        </ul>
+    </footer>
+    
+   <script src="script.js"></script> 
+</body>
+</html>
